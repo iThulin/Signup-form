@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 h1 {
-    font-size: 2.5rem;
-    color: #fdf0d5;
+    font-size: 2.75rem;
+    text-align: center;
+    color: #D2CBC8;
     font-family: 'Poppins', sans-serif;
 }
 
 h2 {
-    font-size: 1.85rem;
+    font-size: 1.75rem;
 
     color: #A19E97;
     font-family: 'Poppins', sans-serif;
@@ -18,6 +19,12 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+#label {
+    font-size: 20px;
+    color: #0A0B0D;
+    font-family: 'Poppins', sans-serif;
+}
+
 label {
     font-size: 16px;
     color: #0A0B0D;
@@ -25,14 +32,15 @@ label {
 }
 
 a {
-    font-size: 16px;
-    color: lightblue;
+    font-size: 20px;
+    color: rgb(127, 194, 209);
     font-family: 'Poppins', sans-serif;
 }
 
 .mainContainer {
     display: flex;
-    background-color: #0A0B0D;
+    background: rgb(9,9,11);
+    background: linear-gradient(180deg, rgba(9,9,11,1) 0%, rgba(134,134,125,1) 75%, rgba(75,80,73,1) 100%);
     height: 100vh;
     width: 100vw;
     flex-flow: row nowrap;
@@ -70,7 +78,8 @@ a {
 }
 
 .middleContainer {
-    background-color: #6D7C78;
+    background: rgb(74,94,92);
+background: linear-gradient(12deg, rgba(74,94,92,1) 0%, rgba(197,206,208,1) 100%);
 }
 
 .gridRow {
@@ -99,15 +108,23 @@ a {
 
 .createAccount {
     background-color: #83360C;
-    width: 50vh;
+    border: 4px solid black;
+    width: 40%;
     height: 3rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #fdf0d5;
     font-family: 'Poppins', sans-serif;
 }
 
 .upperText, .lowerText {
     gap: 1.5rem;
+}
+
+.lowerText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 input {
